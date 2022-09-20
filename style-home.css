@@ -1,0 +1,195 @@
+/*
+body {
+  margin: 30px;
+  background: url("https://kpattorney.com/wp-content/uploads/2020/02/Dram-Shop-Laws-explained-by-kanner-and-pintaluga-scaled.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+img {
+  border-radius: 3em;
+}
+/* myheadercontainer to make contrast */  /*
+.headercontainer {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: black;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* container for my body of text */  /*
+.group {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: #8b8680;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* my unordered lists */    /*
+ul {
+  height: auto;
+  padding-left: 0;
+  list-style-position: inside;
+  color: black;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* my ordered lists */   /*
+ol {
+  height: auto;
+  padding-left: 0;
+  list-style-position: inside;
+  color: black;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  font-size: 1.5em;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}   */
+
+.headercontainer {
+  background-color: black;
+  color: white;
+  width: 700px;
+  margin: 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 30px;
+  background: url("https://kpattorney.com/wp-content/uploads/2020/02/Dram-Shop-Laws-explained-by-kanner-and-pintaluga-scaled.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+#list {
+  text-align: center;
+  display: inline-block;
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+
+img {
+  border-radius: 8em;
+}
+
+.section {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: #8b8680;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.goals {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: #8b8680;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top-style: solid;
+  border-color: black;
+}
+
+.about {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: #8b8680;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top-style: solid;
+  border-color: black;
+}
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.contact {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  background: #8b8680;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top-style: solid;
+  border-color: black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@media all and (mind-width: 800px) {
+  .headercontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .goals {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
